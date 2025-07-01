@@ -27,7 +27,6 @@
     margin-bottom: 15px;
 }
 
-
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +35,6 @@
     width: 800px;
     border: 2px solid grey;
 }
-
 
 .square{
     width: 40px;
@@ -64,11 +62,9 @@
     height: 40px;
     border-radius: 7px;
     cursor: pointer;
-
 }
 
 .create_grid:hover, .reset:hover{
     color: aquamarine;
     border: 3px solid greenyellow;
-
 }
