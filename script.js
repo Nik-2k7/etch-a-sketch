@@ -45,7 +45,7 @@ container.addEventListener('mouseup', () => {
     penDown = false;
 });
 
-container.addEventListener('mouseover', (e) => {
+container.addEventListener('mousemove', (e) => {
     if(penDown && e.target.classList.contains('square')){
             e.target.style.backgroundColor = '#ed0cde';
     }
