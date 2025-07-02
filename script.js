@@ -2,9 +2,10 @@ const container = document.querySelector('.container');
 const create_Grid = document.querySelector('.create_grid');
 const reset = document.querySelector('.reset');
 
+let currentGridSize = 16;
 
 const createGrid = (size) => {
-    const squareSize = 800/size;
+    const squareSize = 520/size;
     container.innerHTML = '';
 
 
